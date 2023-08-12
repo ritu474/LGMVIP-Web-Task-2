@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ff966d, #fa538d, #89379c);
+    color: black;
+}
+
+
+.container{
+    height: auto;
+    margin: 309px;
+    padding-top: 30px;
+    left: auto;
+    margin-top: 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 894px;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    background: rgba( 255, 255, 255, 0.5 );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    -webkit-backdrop-filter: blur( 10.5px );
+}
+
+h1{
+    padding-right: 20px;
+    font-size: 50px;
+}
+
+.form-container{
+    
+    padding-left: 125px;
+    position: relative;
+    width: 757px;
+    top: 60px;
+}
+
+.form{
+    margin: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.output-container{
+    margin: 20px;
+   font-size: 25px;
+   border: 3px solid #fa538d;
+   border-radius: 8px;
+   padding: 20px;
+}
+
+.output-box{
+    
+    width: 766px;
+    height: 738px;
+    padding: 45px 14px;
+}
+h2{
+    font-size: 50px;
+    padding: 0px 155px;
+}
+label{
+    font-weight: bold;
+}
+
+.myfemale{
+    padding: 10px 112px;
+}
+
+.mymale{
+    position: absolute;
+    top: 405px;
+    right: 456px;
+}
+
+.lang{
+    padding: 10px 87px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="number"],
+select {
+    width: 50%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #1d1919;
+}
+
+input[type="radio"],
+input[type="checkbox"],
+select{
+        height: 18px;
+        width: 50px;
+}
+
+
+
+.line{
+    position: absolute;
+    height: 3px;
+    left: 482px;
+    top: 466px;
+    width: 729px;
+    transform: rotate(90deg);
+    background: linear-gradient(to bottom right, #ff966d, #fa538d, #89379c);
+
+}
+
+#registration-form{
+    padding: 20px 15px;
+}
+
+
+.submit-button,.clear-button{
+    color: white;
+    background: linear-gradient(to right, #ff966d, #fa538d, #89379c);
+    border: none;
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px;
+    font-size: 22px;
+    font: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+#output{
+    position: relative;
+    margin-top: 20px;
+    height: 750px;
+    overflow-y: auto;
+    padding-right: 10px;
+    margin: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+    box-shadow: inset 0.0 10000px rgb(71, 23, 23);
+}
+::-webkit-scrollbar
+{
+    width: 9px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(to right, #ff966d, #fa538d, #89379c);
+}
